@@ -1,0 +1,37 @@
+/* .pokelist {
+    border: 2px solid black;
+    border-radius: 10px;
+} */
+
+
+
+#mypoke {
+    width: 7vh;
+    margin-right: 3%
+}
+
+.pokegrid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    grid-column-gap: 5vw;
+    padding: 0;
+
+}
+
+.pokeimage {
+    max-height: 200px;
+    align-content: center;
+    object-fit: contain;
+}
+
+.pokelist2 {
+    margin: 30px 0px;
+
+}
+
+.pokelist1 {
+    height: 500px;
+    overflow: scroll;
+}

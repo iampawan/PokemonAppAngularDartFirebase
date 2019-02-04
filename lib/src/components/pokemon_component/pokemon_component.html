@@ -1,0 +1,54 @@
+<!-- <div>
+    <material-list class="pokelist" size="small" *ngIf="pokeHub!=null">
+        <material-list-item class="mdc-card mdc-card--outlined" *ngFor="let poke of pokeHub.pokemon">
+            {{poke.name}}
+
+        </material-list-item>
+    </material-list>
+
+</div> -->
+
+<div class="pokegrid">
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="pokelist1">
+                <h3 style="text-align: center" class="mb-5">Pokemon App</h3>
+                <p class="lead">
+                    <ul class="list-group" *ngIf="pokeHub!=null">
+                        <li class="list-group-item text-wrap" *ngFor="let poke of pokeHub.pokemon" (click)="onSelect(poke)">
+                            <img id="mypoke" src="{{poke.img}}"> {{poke.name}}
+                        </li>
+                    </ul>
+
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="pokelist2" *ngIf="pokemon!=null">
+        <div class="card">
+            <img src="{{pokemon.img}}" class="card-img-top bg-dark pokeimage" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{pokemon.name}}</h5>
+                <p class="card-text">This pokemon is {{pokemon.name}}</p>
+                <b>Height: </b>
+                <p class="card-text">{{pokemon.height}}</p>
+                <b>Weight: </b>
+                <p class="card-text">{{pokemon.weight}}</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">{{pokemon.type}}</small>
+            </div>
+        </div>
+        <!-- <div class="card bg-dark text-white">
+            <img src="" class="card-img" alt="Pokemon Image">
+            <div class="card-img-overlay">
+                <h5 class="card-title"></h5>
+                <p class="card-text">{{pokemon.type}}</p>
+
+            </div>
+        </div> -->
+    </div>
+</div>
