@@ -2,6 +2,8 @@
 
 ## With Firebase Integration
 
+[Demo App](https://flutterdemo-9c586.firebaseapp.com/)
+
 <img src="pok.png" width="500px">
 
 A web app that uses [AngularDart](https://webdev.dartlang.org/angular) and
