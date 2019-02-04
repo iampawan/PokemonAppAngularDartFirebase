@@ -1,4 +1,8 @@
-# pokedex
+# Pokemon App Built with AngularDart
+
+## With Firebase Integration
+
+<img src="pok.png" width="500px">
 
 A web app that uses [AngularDart](https://webdev.dartlang.org/angular) and
 [AngularDart Components](https://webdev.dartlang.org/components).
